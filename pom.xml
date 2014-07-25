@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+		 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+		 xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+
+	<groupId>org.beansugar.samples</groupId>
+	<artifactId>bs-samples-parent</artifactId>
+	<version>201407</version>
+	<packaging>pom</packaging>
+
+	<name>bs-samples</name>
+	<url>http://sso.beansugar.org</url>
+
+	<modules>
+		<module>samples-jpa</module>
+		<module>samples-spring-mybatis</module>
+		<module>samples-spring-tiles3</module>
+		<module>samples-spring-jpa</module>
+		<module>samples-spring-security</module>
+	</modules>
+
+	<developers>
+		<developer>
+			<id>archmagece</id>
+			<name>CE Lee</name>
+			<email>archmagece@gmail.com</email>
+			<url>http://www.beansugar.org</url>
+		</developer>
+	</developers>
+
+</project>

@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+		 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+		 xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<parent>
+		<artifactId>bs-samples-parent</artifactId>
+		<groupId>org.beansugar.samples</groupId>
+		<version>201407</version>
+	</parent>
+	<modelVersion>4.0.0</modelVersion>
+
+	<artifactId>samples-jpa</artifactId>
+	<packaging>jar</packaging>
+
+	<properties>
+		<!-- encoding -->
+		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+		<!-- java version -->
+		<java-version>1.7</java-version>
+	</properties>
+
+	<dependencies>
+		<!-- lombok -->
+		<dependency>
+			<groupId>org.projectlombok</groupId>
+			<artifactId>lombok</artifactId>
+			<version>1.14.4</version>
+			<!--<scope>compile</scope>-->
+		</dependency>
+
+		<!-- orm,jpa -->
+		<dependency>
+			<groupId>org.hibernate.javax.persistence</groupId>
+			<artifactId>hibernate-jpa-2.0-api</artifactId>
+			<version>1.0.1.Final</version>
+		</dependency>
+		<!-- orm,jpa,hibernate -->
+		<dependency>
+			<groupId>org.hibernate</groupId>
+			<artifactId>hibernate-entitymanager</artifactId>
+			<version>4.3.6.Final</version>
+		</dependency>
+		<!-- orm,jpa,hibernate -->
+		<dependency>
+			<groupId>org.hibernate</groupId>
+			<artifactId>hibernate-validator</artifactId>
+			<version>5.1.1.Final</version>
+			<scope>provided</scope>
+		</dependency>
+		<!-- orm,jpa,hibernate -->
+		<dependency>
+			<groupId>javax.xml.bind</groupId>
+			<artifactId>jaxb-api</artifactId>
+			<version>2.2.11</version>
+		</dependency>
+
+
+		<!-- time,datetime -->
+		<dependency>
+			<groupId>joda-time</groupId>
+			<artifactId>joda-time</artifactId>
+			<version>2.3</version>
+		</dependency>
+		<!-- time,datetime,hibernate,custom -->
+		<!--<dependency>-->
+			<!--<groupId>joda-time</groupId>-->
+			<!--<artifactId>joda-time-hibernate</artifactId>-->
+			<!--<version>1.3</version>-->
+		<!--</dependency>-->
+		<!-- time,datetime,hibernate,custom -->
+		<dependency>
+			<groupId>org.jadira.usertype</groupId>
+			<artifactId>usertype.core</artifactId>
+			<version>3.2.0.GA</version>
+		</dependency>
+
+
+		<!-- memory,database,rdbms -->
+		<!--<dependency>-->
+			<!--<groupId>com.h2database</groupId>-->
+			<!--<artifactId>h2</artifactId>-->
+			<!--<version>1.4.180</version>-->
+		<!--</dependency>-->
+		<dependency>
+			<groupId>org.hsqldb</groupId>
+			<artifactId>hsqldb</artifactId>
+			<version>2.3.2</version>
+		</dependency>
+
+
+	</dependencies>
+</project>
