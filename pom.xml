@@ -16,7 +16,7 @@
 		<module>samples-jpa</module>
 		<module>samples-spring-mybatis</module>
 		<module>samples-spring-tiles3</module>
-		<module>samples-spring-jpa</module>
+		<module>samples-spring-data-jpa</module>
 		<module>samples-spring-security</module>
 	</modules>
 
